@@ -48,3 +48,70 @@ body{
     width: 60%;
     transform: rotate(25deg);
 }
+
+/*features*/
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#features h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+#features i{
+   color: #ef8172;
+   font-size: 3rem;
+   margin-bottom: 1rem;
+}
+
+#features i:hover{
+    color: #ff4c68;
+}
+
+/*testimonials*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
