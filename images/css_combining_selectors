@@ -1,0 +1,44 @@
+# Multiple selectors:
+-> applies same property to the selectors
+-> syntax:
+    selector1, selector2{
+        ...
+    }
+
+-> example:
+    h1, h2, h3, h4, h5, h6{
+        font-family: "Arial"
+    }
+
+# Hierarchical selectors:
+-> get to the specific child by using the parent element
+-> read from right to left
+-> syntax:
+    selector1 selector2{
+        ...
+    }
+    or
+    parent child{
+        ...
+    }
+-> example:
+    .container-fluid #title{
+        color: red;
+    }
+
+# Combined selectors:
+-> simply combine selectors
+-> no space between the selectors
+-> selectors have to occur inside same element
+-> read from left to right
+-> syntax:
+    selector1.selector2{
+        ...
+    }
+    or
+     selector1#selector2{
+        ...
+    }
+-> example:
+    h1#title{color: red;}
+    div.container-fluid{color: red;}    # div with class named container-fluid should have the color red
